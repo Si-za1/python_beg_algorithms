@@ -23,3 +23,7 @@ if __name__ == "__main__":
     print("The basic search:", result)
 
 # now the binary search 
+#for performing the binary branch the steps that we need to follow 
+
+#first finding the midpoint then if the target is less than the midpoint we need to shift to the left, else to the right 
+
