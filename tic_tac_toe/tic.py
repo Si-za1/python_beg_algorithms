@@ -56,7 +56,7 @@ while True:
             draw_board(board)
             print(f"Player {current_player} wins!")
             break
-         
+        #for the condition of drawaw
         elif " " not in [cell for row in board for cell in row]:
             draw_board(board)
             print("It's a draw!")
